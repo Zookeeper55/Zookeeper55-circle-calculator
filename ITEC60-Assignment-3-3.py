@@ -1,4 +1,4 @@
-=== ITEC60-Assignment-3-3.py ===
+
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
@@ -8,7 +8,7 @@ import math
 
 circ_site = FastAPI()
 
-# Set up templates directory
+
 templates = Jinja2Templates(directory="templates")
 
 @circ_site.get("/", response_class=HTMLResponse)
