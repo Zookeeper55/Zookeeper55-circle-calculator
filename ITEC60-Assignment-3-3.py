@@ -8,7 +8,6 @@ import math
 
 circ_site = FastAPI()
 
-
 templates = Jinja2Templates(directory="templates")
 
 @circ_site.get("/", response_class=HTMLResponse)
